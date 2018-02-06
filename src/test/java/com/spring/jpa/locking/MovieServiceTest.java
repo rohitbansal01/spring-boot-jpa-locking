@@ -1,6 +1,7 @@
 package com.spring.jpa.locking;
 
 import org.hibernate.StaleObjectStateException;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.spring.jpa.locking.domain.Movie;
 import com.spring.jpa.locking.service.MovieService;
 
+@Ignore
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = JPALockingApplication.class)
 public class MovieServiceTest {

@@ -4,7 +4,7 @@ public interface CustomPersonRepository {
 
 	public Person findByName(String name);
 
-	public Person updateName(Person person, String name);
+	public Person savePerson(Person person);
 
 	public Person updateCount(Person person);
 
